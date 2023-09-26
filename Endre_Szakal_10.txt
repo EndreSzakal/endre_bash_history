@@ -1,0 +1,40 @@
+    1  mkdir task-10
+    2  cd task-10/
+    3  mkdir source backup
+    4  ls
+    5  cd source/
+    6  nano t1.txt
+    7  nano t2.txt
+    8  nano t3.txt
+    9  nano copy.sh
+   10  nano copy.sh 
+   11  chmod +x copy.sh 
+   12  ./copy.sh 
+   13  nano copy.sh 
+   14  ./copy.sh 
+   15  nano copy.sh 
+   16  ./copy.sh 
+   17  ls
+   18  ls ../backup/
+   19  nano copy.sh 
+   20  cd ../backup/
+   21  ls
+   22  rm copy.sh 
+   23  cd ../source/
+   24  ls
+   25  nano copy.sh 
+   26  ./copy.sh 
+   27  ls ../backup/
+   28  ./copy.sh &
+   29  stats
+   30  status
+   31  pgrep 7527
+   32  ps
+   33  ls
+   34  cd ../
+   35  ls
+   36  rm -r ./*
+   37  ls
+   38  cd ../
+   39  ls
+   40  history > Endre_Szakal_10.txt

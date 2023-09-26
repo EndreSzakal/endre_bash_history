@@ -1,0 +1,50 @@
+    1  mkdir task-6
+    2  wget https://archive.ics.uci.edu/ml/machine-learning-databases/iris/iris.data
+    3  ls
+    4  head iris.data 
+    5  mv iris.data task-6/
+    6  cd task-6/
+    7  ls
+    8  cat iris.data | cut -f5 -d, > species.csv
+    9  cat species.csv 
+   10  cat species.csv | while read line do echo $read; done
+   11  cat species.csv | while read line do echo $read done; ;
+   12  cat species.csv | while read line; do echo $read; done
+   13  cat species.csv | while read line; do echo $line; done
+   14  cat species.csv | while read line; do if [${line} == "Iris-virginica"]; then echo $line; done
+   15  cat species.csv | while read line; do if [${line} == "Iris-virginica"]; then echo ${line}; done
+   16  cat species.csv | while read line; do if [${line} = Iris-virginica]; then echo ${line}; done
+   17  cat species.csv | while read line; do if [${line} = Iris-virginica]; then echo $line; done
+   18  cat species.csv | while read line; do if [${line} = Iris-virginica]; then echo "$line"; done
+   19  cat species.csv | while read line; do if [${line} = Iris-virginica]; then echo "$line"; else echo "bruh"; done
+   20  cat species.csv | while read line; do if [${line} = Iris-virginica]; then echo "$line"; else echo "bruh"; fi; done
+   21  cat species.csv | while read line; do if [${line} = Iris-virginica]; then echo $line; else echo "bruh"; fi; done
+   22  cat species.csv | while read line; do if [${line} == Iris-virginica]; then echo ${line}; else echo "bruh"; fi; done
+   23  cat species.csv | while read line; do if [${line} == Iris-virginica]; then echo ${line}; fi; done
+   24  cat species.csv | while read line; do if [${line} == Iris-virginica]; then echo ${line}; fi done
+   25  cat species.csv | while read line; do if [${line} == "Iris-virginica"]; then echo ${line}; fi done
+   26  cat species.csv | while read line; do if [ ${line} == "Iris-virginica" ]; then echo ${line}; fi done
+   27  cat species.csv | while read line; do if [ ${line} = "Iris-virginica" ]; then echo ${line}; fi done
+   28* cat species.csv | while read line; do if [ ${line} = "Iris-virginica" ]; then echo ${line}; fi done
+   29  cat species.csv | while read line; do if [ "${line}" = "Iris-virginica" ]; then echo ${line}; fi done
+   30  cat species.csv | while read line; do if [ "${line}" = "Iris-virginica" ]; then echo ${line}; fi done > virginica.csv
+   31  cat virginica.csv 
+   32  cat species.csv | while read line; do if [ "${line}" = "Iris-setosa" ]; then echo ${line}; fi done > virginica.csv
+   33  rm virginica.csv 
+   34  cat species.csv | while read line; do if [ "${line}" = "Iris-virginica" ]; then echo ${line}; fi done > virginica.csv
+   35  ls
+   36  cat species.csv | while read line; do if [ "${line}" = "Iris-setosa" ]; then echo ${line}; fi done > setosa.csv
+   37  cat setosa.csv 
+   38  cat species.csv | while read line; do if [ "${line}" = "Iris-versicolor" ]; then echo ${line}; fi done > versicolor.csv
+   39  cat versicolor.csv 
+   40  wc -l virginica.csv 
+   41  head -n 25 virginica.csv > all.csv
+   42  cat all.csv 
+   43  wc -l setosa.csv 
+   44  head -n 25 setosa.csv >> all.csv 
+   45  head -n 25 versicolor.csv >> all.csv 
+   46  cat all.csv 
+   47  ls
+   48  rm iris.data setosa.csv species.csv versicolor.csv virginica.csv 
+   49  ls
+   50  history > Endre_Szakal_5.txt

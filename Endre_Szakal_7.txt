@@ -1,0 +1,21 @@
+    1  mkdir task-7
+    2  cd task-7/
+    3  touch s.html
+    4  ls
+    5  nano s.html 
+    6  python3 -m http.server
+    7  mv s.html http.server
+    8  ls
+    9  python -m http.server
+   10  ls
+   11  mv http.server simple.html
+   12  ls
+   13  sudo python -m http.server 80
+   14  python -m http.server
+   15  python -m http.server 80
+   16  sudo python -m http.server 80
+   17  sudo python3 -m http.server 80
+   18  mv ~/m33765/OneDrive\ -\ Noblis/Desktop/simple.html ./
+   19  ls
+   20  cat simple.html 
+   21  history > Endre_Szakal_7.txt

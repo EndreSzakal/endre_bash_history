@@ -1,0 +1,28 @@
+    1  history
+    2  mkdir task-1
+    3  ls
+    4  cd task-1/
+    5  mkdir sub1 sub2 sub3
+    6  ls
+    7  touch sub1/fil1.txt
+    8  touch sub2/file2.txt
+    9  touch sub3/file3.txt
+   10  ls
+   11  nano sub1/fil1.txt 
+   12  nano sub2/file2.txt 
+   13  nano sub3/file3.txt 
+   14  cat sub1/fil1.txt sub2/file2.txt sub3/file3.txt 
+   15  zip -h
+   16  zip sub*
+   17  ls
+   18  mkdir sub4
+   19  mv sub1.zip ./sub4/
+   20  ls
+   21  cd sub4/
+   22  unzip -h
+   23  unzip sub1.zip 
+   24  ls
+   25  cd ../
+   26  rm -r task-1/
+   27  ls
+   28  history > Endre_Szakal_1.txt

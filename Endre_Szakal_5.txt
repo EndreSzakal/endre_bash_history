@@ -1,0 +1,32 @@
+    1  mkdir task-5
+    2  cd task-5
+    3  mkdir pdf_backup txt_backup doc_backup
+    4  ls
+    5  touch text.txt
+    6  touch doc1.doc
+    7  touch pdf1.pdf
+    8  touch text2.txt
+    9  ls
+   10  touch pdf2.pdf
+   11  touch doc2.doc
+   12  nano text.txt 
+   13  nano text2.txt 
+   14  cp *.doc doc_backup/
+   15  ls
+   16  cp *.txt txt_backup/
+   17  cp *.pdf pdf_backup/
+   18  cat doc_backup/
+   19  ls doc_backup/
+   20  ls pdf_backup/ txt_backup/
+   21  wc -l ./doc_backup/
+   22  wc -l ./doc_backup/.
+   23  cd doc_backup/
+   24  wc -l .
+   25  wc -l 
+   26  wc 
+   27  ls | wc -l
+   28  cd ../
+   29  ls pdf_backup/
+   30  ls pdf_backup/ | wc -l
+   31  ls txt_backup/ | wc -l
+   32  history > Endre_Szakal_5.txt

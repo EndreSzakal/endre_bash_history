@@ -1,0 +1,24 @@
+    1  mkdir task-11
+    2  cd task-11/
+    3  touch t1.txt t2.txt t3.txt
+    4  ls
+    5  chmod 766 t1.txt 
+    6  ll
+    7  sudo useradd username
+    8  sudo passwd username
+    9  users
+   10  id username
+   11  $USER
+   12  whoami
+   13  su username
+   14  chown username t2.txt 
+   15  whoami
+   16  sudo chown username t2.txt 
+   17  groupadd mygroup
+   18  sudo groupadd mygroup
+   19  sudo chown :mygroup t3.txt 
+   20  ls
+   21  sudo userdel -f username
+   22  sudo userdel -r username
+   23  sudo groupdel mygroup
+   24  history > Endre_Szakal_11.txt

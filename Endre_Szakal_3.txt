@@ -1,0 +1,50 @@
+    1  mkdir task-3
+    2  cd task-3/
+    3  svn
+    4  curl https://github.com/dr5hn/countries-states-cities-database/tree/56496af6ab2a8b98aab6703276dea41109d3be1b/csv
+    5  ls
+    6  curl -h
+    7  wget https://github.com/dr5hn/countries-states-cities-database/tree/56496af6ab2a8b98aab6703276dea41109d3be1b/csv
+    8  ls
+    9  cat csv 
+   10  cd csv
+   11  ls
+   12  rm csv 
+   13  wget https://github.com/dr5hn/countries-states-cities-database/blob/master/csv/cities.csv
+   14  ls
+   15  cat cities.csv 
+   16  nano cities.csv 
+   17  wget -O cities.csv https://github.com/dr5hn/countries-states-cities-database/blob/master/csv/cities.csv
+   18  ls
+   19  nano cities.csv 
+   20  git clone https://github.com/dr5hn/countries-states-cities-database.git
+   21  ls
+   22  rm cities.csv 
+   23  wget https://raw.githubusercontent.com/dr5hn/countries-states-cities-database/master/csv/cities.csv
+   24  ls
+   25  cat cities.csv 
+   26  rm cities.csv 
+   27  wget https://raw.githubusercontent.com/dr5hn/countries-states-cities-database/master/csv/states.csv
+   28  ls
+   29  head states.csv 
+   30  cat states.csv | cut -f3 -d, 
+   31  cat states.csv | cut -f3 -d, | head
+   32  cat states.csv | cut -f3 -d, > freqs.csv
+   33  ls
+   34  head freqs.csv 
+   35  mkdir sub
+   36  ls
+   37  tail -n freqs.csv 
+   38  tail -n 10 freqs.csv 
+   39  tail -n 10 states.csv 
+   40  tail -n 10 states.csv > freq_states.csv 
+   41  ls
+   42  mv freq_states.csv sub/
+   43  ls
+   44  cd sub/
+   45  cat freq_states.csv 
+   46  cd ../../
+   47  ls
+   48  rm -r task-3/
+   49  ls
+   50  history > Endre_Szakal_3.txt

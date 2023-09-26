@@ -1,0 +1,48 @@
+    1  mkdir task-9
+    2  cd task-9/
+    3  nano text.txt
+    4  nano inc.sh
+    5  chmod +x inc.sh 
+    6  ./inc.sh 
+    7  nano inc.sh
+    8  ./inc.sh 
+    9  cat text.txt 
+   10  ./inc.sh 
+   11  cat text.txt 
+   12  nano inc.sh
+   13  ./inc.sh 
+   14  nano inc.sh
+   15  ./inc.sh 
+   16  cat text.txt 
+   17  ./inc.sh 
+   18  cat text.txt 
+   19  ./inc.sh 
+   20  nano inc.sh
+   21  ./inc.sh 
+   22  cat text.txt 
+   23  nano inc.sh
+   24  ./inc.sh 
+   25  nano inc.sh
+   26  rm text.txt 
+   27  nano num.txt
+   28  nano inc.sh
+   29  ./inc.sh 
+   30  nano inc.sh
+   31  ./inc.sh 
+   32  nano inc.sh
+   33  ls
+   34  ./inc.sh 
+   35  nano inc.sh
+   36  ./inc.sh 
+   37* 
+   38  ./inc.sh 
+   39  nano inc.sh
+   40  rm num.text 
+   41  ./inc.sh 
+   42  ls
+   43  cat num.txt 
+   44  ./inc.sh 10
+   45  cat num.txt 
+   46  ./inc.sh && ./inc.sh && ./inc.sh 
+   47  cat num.txt 
+   48  history > Endre_Szakal_9.txt

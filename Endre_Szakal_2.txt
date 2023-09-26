@@ -1,0 +1,38 @@
+    1  mkdir task-2
+    2  cd task-2/
+    3  wget https://plus.unsplash.com/premium_photo-1661877112841-0efa68b18527?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=3488&q=80
+    4  ls
+    5  cat wget-log 
+    6  curl https://plus.unsplash.com/premium_photo-1661877112841-0efa68b18527?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=3488&q=80 -o img1
+    7  ls
+    8  cd
+    9  ls
+   10  mv ./m33765/OneDrive\ -\ Noblis/Desktop/img* .
+   11  ls
+   12  mv img* ./noblis/CTG/bash_history_tests/task-2/
+   13  ls
+   14  cd ./noblis/CTG/bash_history_tests/task-2/
+   15  ls
+   16  rm wget-log 
+   17  s
+   18  ls
+   19  mkdir sub
+   20  mv img* ./sub/
+   21  ls
+   22  cd sub/
+   23  ls
+   24  convert
+   25  sudo apt update
+   26  sudo apt install imagemagick
+   27  convert
+   28  ls
+   29  nano resize.sh
+   30  ls
+   31  nano resize.sh 
+   32  vim resize.sh 
+   33  chmod +x resize.sh
+   34  ls
+   35  ./resize.sh > log.txt 2>&1
+   36  cat log.txt 
+   37  ls
+   38  history > Endre_Szakal_2.txt

@@ -1,0 +1,59 @@
+    1  mkdir task-4
+    2  cd task-4/
+    3  touch {a..z}
+    4  ls
+    5  for file in *; do ${file} >> ${file} done
+    6  for file in *; do ${file} >> ${file}; done
+    7  for file in *; do echo ${file} >> ${file}; done
+    8  ls
+    9  cat a
+   10  cat *
+   11  touch all.txt
+   12  ls
+   13  ls z
+   14  for letter in (ls); do echo letter; done
+   15  for letter in (ls ./); do echo letter; done
+   16  for letter in ls ./; do echo letter; done
+   17  for letter in "ls"; do echo letter; done
+   18  for letter in "${ls}"; do echo letter; done
+   19  for letter in "$(ls)"; do echo letter; done
+   20  for letter in $(ls ./); do echo letter; done
+   21  for letter in $(ls ./); do echo $letter; done
+   22  rm all.txt 
+   23  ls
+   24  for letter in {z..a}; do echo $letter; done
+   25  for letter in {z..a}; do ls $letter; done
+   26  touch all.txt
+   27  for letter in {z..a}; do cat ls $letter; done
+   28  for letter in {z..a}; do cat (ls $letter); done
+   29  for letter in {z..a}; do ls $letter && cat; done
+   30  ls a | cat
+   31  cat ($ls a)
+   32  cat "$ls a"
+   33  cat "$lsa"
+   34  cat "$ls"
+   35  cat a
+   36  for letter in {z..a}; do cat ${letter} >> all.txt; done
+   37  cat all.txt 
+   38  mv all.txt (date %s+).txt
+   39  mv all.txt date %s+.txt
+   40  mv all.txt $(date %s+).txt
+   41  mv all.txt $(date %s).txt
+   42  mv all.txt $(date +%s).txt
+   43  mv all.txt $(date).txt
+   44  ls
+   45  touch all.txt
+   46  for letter in {z..a}; do cat ${letter} >> all.txt; done
+   47  cat all.txt 
+   48  mv all.txt 1_44pm_9_22_2023.txt
+   49  ls
+   50  stat 1_44pm_9_22_2023.txt 
+   51  stat --printf="%s" 1_44pm_9_22_2023.txt 
+   52  mv 1_44pm_9_22_2023.txt 1_44pm_9_2_2023_182.txt
+   53  ls
+   54  cat 1_44pm_9_2_2023_182.txt 
+   55  tac
+   56  tac 1_44pm_9_2_2023_182.txt 
+   57  cat 1_44pm_9_2_2023_182.txt | tac 1_44pm_9_2_2023_182.txt 
+   58  cat 1_44pm_9_2_2023_182.txt && tac 1_44pm_9_2_2023_182.txt 
+   59  history > Endre_Szakal_4.txt
